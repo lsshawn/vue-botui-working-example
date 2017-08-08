@@ -2,10 +2,8 @@
 
   <div id="app">
     <img src="./assets/logo.png">
+    <router-view></router-view>
 
-    <div class="botui-app-container" id="my-botui-app">
-      <bot-ui></bot-ui>
-    </div>
   </div>
 
 </template>
